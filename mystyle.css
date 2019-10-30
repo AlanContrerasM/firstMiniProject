@@ -4,13 +4,49 @@ body {
 
 header {
     height: 50px;
-}
-
-#leftHeader a {
-    color: gray;
+    
     
 }
 
+#leftHeader, #rightHeader {
+    display: table;
+    
+}
+
+#leftHeader a, #rightHeader a {
+    color: gray;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+
+#leftHeader{
+    float: left;
+}
+
+#rightHeader{
+    float: right;
+
+}
+
 #squares {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6yXHnQzwRIDapFa6amOah7OwuL6RdP70LJm0v-6AptfBZHn_M4g&s)
+    background-image: url(https://github.com/iamnguyenson/google_homepage/blob/master/i1_1967ca6a.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    display: inline-block;
+    width: 30px;
+}
+
+#login {
+    background-image: url(https://lh3.googleusercontent.com/-Ga6a2dxY2CI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd5S4xV0LVuZbptNjqntDx5KI0mcQ.CMID/s32-c/photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    display: inline-block;
+    width: 30px;
 }
