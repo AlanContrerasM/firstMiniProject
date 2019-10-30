@@ -5,3 +5,7 @@ body {
 header {
     height: 50px;
 }
+
+#squares {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6yXHnQzwRIDapFa6amOah7OwuL6RdP70LJm0v-6AptfBZHn_M4g&s)
+}
