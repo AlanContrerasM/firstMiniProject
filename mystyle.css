@@ -19,6 +19,7 @@ header {
     vertical-align: middle;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
     
 }
 
@@ -49,4 +50,103 @@ header {
     height: 30px;
     display: inline-block;
     width: 30px;
+    border-radius: 50%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo {
+    padding-top: 100px;
+    text-align: -webkit-center;
+}
+
+.center {
+    text-align: -webkit-center;
+}
+
+.searchContainer{
+    border: 1px gray solid;
+    border-radius: 24px;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin: o auto;
+    width: 50%;
+    
+}
+
+.searchContainer div{
+    align-content: center;
+}
+
+svg {
+    width: 20px;
+    margin: auto;
+}
+
+#searchInput {
+    border:none;
+    width: 90%;
+    display: flex;
+}
+
+#voice {
+    height: 24px;
+}
+
+.buttons{
+    padding-top: 30px;
+}
+
+.buttons input{
+    margin: 20px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border: none;
+    color: grey;
+}
+
+.buttons input:hover{
+    
+    background-color: grey;
+    color: black;
+}
+
+
+footer {
+    height: 50px;
+    background-color:#f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
+
+.leftFooter, .rightFooter {
+    display: table;
+    
+}
+
+.leftFooter a, .rightFooter a {
+    color: gray;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    
+}
+
+
+
+.leftFooter{
+    float: left;
+}
+
+.rightFooter{
+    float: right;
+
 }
